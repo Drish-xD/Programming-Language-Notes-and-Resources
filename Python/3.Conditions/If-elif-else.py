@@ -16,12 +16,9 @@
         code3
 '''
 
-# One Line Syntax
-
-# [on_true] if [expression] else [on_false]
-
-
 # Example
+print("Example 1")
+
 a = 35
 b = 20
 if b > a:
@@ -31,7 +28,17 @@ elif a > b:
 else:
     print("Both are Equal")
 
+
+
+
+'''
+    One Line Syntax
+
+    # [on_true] if [expression] else [on_false]
+'''
+
 # Short Hand Example
+print("\nExample 2")
 
 a = 20
 b = 35
@@ -48,6 +55,7 @@ print("A is greater") if a > b else print("B is greater")
 '''
 
 # And Example
+print("\nExample 3")
 
 a = 200
 b = 33
@@ -55,13 +63,17 @@ c = 500
 if a > b and c > a:
     print("And is used when Both statements are true")
 
+
+
 # Or Example
+print("\nExample 4")
 
 a = 200
 b = 33
 c = 500
 if a > b or a > c:
     print("or is used when At least one of the conditions is True")
+
 
 
 
@@ -74,6 +86,7 @@ if a > b or a > c:
 '''
 
 # Example
+print("\nExample 5")
 
 x = 41
 if x > 10:
